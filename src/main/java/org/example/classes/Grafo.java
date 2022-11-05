@@ -131,6 +131,10 @@ public class Grafo {
         }
           
     }
+    public void matrizAdjacencia(){
+        System.out.println("---------Matriz de Adjacência---------");
+         
+    }
 
     public Integer getGraphType() {
         return graphType;
