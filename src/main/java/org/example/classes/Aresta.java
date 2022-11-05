@@ -1,27 +1,27 @@
 package org.example.classes;
 
 public class Aresta {
-    private String value;
+    private Double value;
     private Vertice exitVertex;
-    private Vertice entryVertex;
+    private Vertice arrivalVertex;
 
-    public String getValue() {
+    public Double getValue() {
         return value;
     }
     public Vertice getExitVertex() {
         return exitVertex;
     }
-    public Vertice getEntryVertex() {
-        return entryVertex;
+    public Vertice getArrivalVertex() {
+        return arrivalVertex;
     }
-    public void setValue(String value) {
+    public void setValue(Double value) {
         this.value = value;
     }
     public void setExitVertex(Vertice exitVertex) {
         this.exitVertex = exitVertex;
     }
-    public void setEntryVertex(Vertice entryVertex) {
-        this.entryVertex = entryVertex;
+    public void setArrivalVertex(Vertice arrivalVertex) {
+        this.arrivalVertex = arrivalVertex;
     }
     
 }

@@ -1,14 +1,14 @@
 package org.example.classes;
 
 public class Vertice {
-    private String nome;
+    private String nameVertex;
 
-    public String getNome(){
-        return nome;
+    public String getNameVertex(){
+        return nameVertex;
     }
 
-    public void setNome(String nome){
-        this.nome = nome;
+    public void setNameVertex(String name){
+        this.nameVertex = name;
     }
       
 }
